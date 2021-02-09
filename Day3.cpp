@@ -68,3 +68,66 @@
 //	std::cout << minNumber + maxNumber << std::endl;
 //	return 0;
 //}
+
+
+//// Number 4
+//#include <iostream>
+//int main() {
+//	const int size = 8;
+//	int array[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array[i];
+//	}
+//	for (int i = size-1; i >= 0; i--)
+//	{
+//		std::cout << array[i] << " " ;
+//	}
+//	return 0;
+//}
+
+
+//// Number 5
+//#include <iostream>
+//int main() {
+//	const int size = 8;
+//	int array1[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array1[i];
+//	}
+//	int array2[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array2[i];
+//	}
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cout << array1[i]*array2[i] << " ";
+//	}
+//	return 0;
+//}
+
+
+//// Number 6
+//#include <iostream>
+//int main() {
+//	const int size = 8;
+//	int array1[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array1[i];
+//	}
+//	int array2[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array2[i];
+//	}
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cout << array1[i] + array2[i] << " ";
+//	}
+//	return 0;
+//}
+
+
