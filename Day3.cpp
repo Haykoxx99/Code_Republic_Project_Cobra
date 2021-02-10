@@ -131,3 +131,66 @@
 //}
 
 
+//// number 11
+//#include <iostream>
+//int main() {
+//	const int size = 8;
+//	int array[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array[i];
+//	}
+//	int count = 0;
+//	for (int i = 0; i < size; i++)
+//	{
+//		if (array[i] % 2 != 0)
+//		{
+//			count++;
+//		}
+//	}
+//	std::cout << " count = " << count << std::endl;
+//	return 0;
+//}
+
+
+//// number 12
+//#include <iostream>
+//int main() {
+//	const int size = 8;
+//	int array[size]{};
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cin >> array[i];
+//	}
+//	int count = 0;
+//	for (int i = 0; i < size; i++)
+//	{
+//		if (array[i] % 2 == 0)
+//		{
+//			count++;
+//		}
+//	}
+//	std::cout << " count = " << count << std::endl;
+//	return 0;
+//}
+
+
+// number 16
+#include <iostream>
+int main() {
+	const int size = 8;
+	int array[size]{};
+	for (int i = 0; i < size; i++)
+	{
+		std::cin >> array[i];
+	}
+	int mult = 1;
+	int sum = 0;
+	for (int i = 0; i < size; i++)
+	{
+		mult *= array[i];
+		sum += array[i];
+	}
+	std::cout << "The arithmetic average is  " << (double)(mult + sum)/2 << std::endl;
+	return 0;
+}
